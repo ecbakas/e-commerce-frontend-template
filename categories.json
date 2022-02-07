@@ -1,0 +1,153 @@
+[{
+    "multiple":true,
+    "children":[
+        {
+            "id": 1,
+            "name": "Aktüel",
+            "dataSub":"aktuel",
+            "image":"assets/img/offers/nav-mobile-aktuel.png",
+            "multiple": true,
+            "children": [
+                {
+                    "name": "Ev/Yaşam",
+                    "multiple": true,
+                    "dataSub":"evYasam",
+                    "image":"assets/img/offers/nav-mobile-evYasam.png",
+                    "children": [
+                        {
+                            "name": "Mutfak1",
+                            "multiple": true,
+                            "dataSub":"mutfak",
+                            "image":"assets/img/offers/nav-mobile-mutfak.png",
+                            "children": [
+                                {       
+                                    "name": "1"
+                                },
+                                {
+                                    "name": "2"
+                                },
+                                {
+                                    "name": "3"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Mutfak2",
+                            "multiple": true,
+                            "dataSub":"mutfak2",
+                            "image":"assets/img/offers/nav-mobile-mutfak.png",
+                            "children": [
+                                {       
+                                    "name": "4"
+                                },
+                                {
+                                    "name": "5"
+                                },
+                                {
+                                    "name": "6"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Mutfak",
+                            "multiple": true,
+                            "dataSub":"mutfak1",
+                            "image":"assets/img/offers/nav-mobile-mutfak.png",
+                            "children": [
+                                {       
+                                    "name": "7"
+                                },
+                                {
+                                    "name": "8"
+                                },
+                                {
+                                    "name": "9"
+                                }
+                            ]
+                        },
+                        {
+                            "multiple":false,
+                            "name": "Banyo",
+                            "link": "index.html"
+                        }
+                    ]
+                },
+                {
+                    "name": "Ev/Yaşam",
+                    "multiple": true,
+                    "dataSub":"evYasam",
+                    "image":"assets/img/offers/nav-mobile-evYasam.png",
+                    "children": [
+                        {
+                            "name": "Mutfak",
+                            "multiple": true,
+                            "dataSub":"mutfak",
+                            "image":"assets/img/offers/nav-mobile-mutfak.png",
+                            "children": [
+                                {       
+                                    "name": "Bisey"
+                                },
+                                {
+                                    "name": "Bisey2"
+                                },
+                                {
+                                    "name": "Bisey3"
+                                }
+                            ]
+                        },
+                        {
+                            "multiple":false,
+                            "name": "Banyo",
+                            "link": "index.html"
+                        }
+                
+                    ]
+                },
+                {
+                    "name": "Ev/Yaşam",
+                    "multiple": true,
+                    "dataSub":"evYasam",
+                    "image":"assets/img/offers/nav-mobile-evYasam.png",
+                    "children": [
+                        {
+                            "name": "Mutfak",
+                            "multiple": true,
+                            "dataSub":"mutfak",
+                            "image":"assets/img/offers/nav-mobile-mutfak.png",
+                            "children": [
+                                {       
+                                    "name": "Bisey"
+                                },
+                                {
+                                    "name": "Bisey2"
+                                },
+                                {
+                                    "name": "Bisey3"
+                                }
+                            ]
+                        },
+                        {
+                            "multiple":false,
+                            "name": "Banyo",
+                            "link": "index.html"
+                        }
+                    ]
+                },
+                {
+                    "name": "Ev/Yaşam",
+                    "multiple": false,
+                    "dataSub":"evYasam",
+                    "image":"assets/img/offers/nav-mobile-evYasam.png"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Elektronik",
+            "dataSub":"elektronik",
+            "image":"assets/img/offers/nav-offer-2.png",
+            "multiple": false    
+        }
+    ]
+}
+]

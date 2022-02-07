@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giriş Yap & Üye Ol - Shop.</title>
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">    
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/login-signup.css">
+    <link href='assets/boxicons/css/boxicons.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <section class="login-signup-section">
+        <div class="logo bx-flashing-hover ">
+            <a href="index.html" style="color:var(--dark);"><span style="color:var(--primary);">S</span>hop.</a>
+        </div>
+        <div class="login-signup-div">
+            <div class="login-signup-div-inner">
+                    <input class="login-signup-tab-radio" id="one" name="group" type="radio" checked>
+                    <input class="login-signup-tab-radio" id="two" name="group" type="radio">
+                    <div class="login-signup-tabs">
+                        <label class="login-signup-tab" id="one-tab" for="one">Giriş yap</label>
+                        <label class="login-signup-tab" id="two-tab" for="two">Üye ol</label>
+                    </div>
+                    <div class="login-signup-tabs-panels">
+                        <div class="login-signup-tabs-panel" id="one-panel">
+                            <form method="POST">
+                                <input type="email" placeholder="E-posta adresi" required autocomplete="email">
+                                <input type="password" placeholder="Şifre" required autocomplete="current-password">
+                                <button type="submit" class="btn btn-primary">Giriş yap</button>
+                            </form>
+                            <a href="forgot-password.html" class="forgot-password">Şifremi Unuttum</a>
+                            <div class="login-signup-via-social">
+                                <div class="login-signup-via-title">
+                                    <span>Sosyal hesap ile giriş yap</span><span></span>
+                                </div>
+                                <div class="login-signup-social">
+                                    <a href="google" class="login-signup-via-btn"><i class="bx bxl-google"></i>Google</a>
+                                    <a href="apple" class="login-signup-via-btn"><i class="bx bxl-apple"></i>Apple</a>
+                                    <a href="facebook" class="login-signup-via-btn"><i class="bx bxl-facebook"></i>Facebook</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="login-signup-tabs-panel" id="two-panel">
+                            <div class="login-signup-via-social">
+                                <div class="login-signup-via-title">
+                                    <span>Sosyal hesap ile üye ol</span><span></span>
+                                </div>
+                                <div class="login-signup-social">
+                                    <a href="google" class="login-signup-via-btn"><i class="bx bxl-google"></i>Google</a>
+                                    <a href="apple" class="login-signup-via-btn"><i class="bx bxl-apple"></i>Apple</a>
+                                    <a href="facebook" class="login-signup-via-btn"><i class="bx bxl-facebook"></i>Facebook</a>
+                                </div>
+                            </div>
+                            <div class="login-signup-via-title">
+                                <span>E-posta ile üye ol</span><span></span>
+                            </div>
+                            <form method="POST">
+                                <input type="name" placeholder="Ad" required autocomplete="name">
+                                <input type="surname" placeholder="Soyad" required autocomplete="family-name">
+                                <input type="email" placeholder="E-posta adresi" required autocomplete="email">
+                                <input type="password" placeholder="Şifre" required>
+                                <div class="login-signup-alerts">
+                                    <span id="pLenght">Şifre en az 8 karakter içermeli</span>
+                                    <span id="pUppercase">Şifre büyük/küçük karakter içermeli</span>
+                                    <span id="pRepeat">Şifrede tekrar eden karakter olmamalı</span>
+                                    </div>
+                                <div class="consent-text">
+                                    <label class="checkbox">
+                                        <span class="checkbox__input">
+                                          <input type="checkbox" name="checkbox">
+                                          <span class="checkbox__control">
+                                            <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' aria-hidden="true" focusable="false">
+                                              <path fill='none' stroke='currentColor' stroke-width='3' d='M1.73 12.91l6.37 6.37L22.79 4.59' /></svg>
+                                          </span>
+                                        </span>
+                                        <span class="radio__label">
+                                            <span>Önemli kampanyalardan haberdar olmak için<a href="">Rıza Metni</a>kapsamında elektronik ileti almak istiyorum.</span>
+                                        </span>
+                                      </label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Üye ol</button>
+                            </form>
+                            <span class="signup-warning">
+                                <span>“Üye ol” veya “Sosyal Hesap” butonlarından birine basarak <a href="">Üyelik Sözleşmesi</a>’ni ve <a href="">Çerez Politikası</a>’nı okuduğunuzu ve kabul ettiğinizi onaylıyorsunuz.
+                                </span>
+                                </span>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="login-signup-footer">
+            © Copyright 2021 Shop.
+        </div>
+    </section>
+</body>
+</html>

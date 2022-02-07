@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alışveriş Merkezi</title>
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/swiper.css">
+    <link rel="stylesheet" href="assets/css/product-details.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <script src="assets/js/navbar.js" defer></script>
+    <script src="assets/js/rate.js" defer></script>
+    <link href='assets/boxicons/css/boxicons.css' rel='stylesheet' preload>
+</head>
+
+<body>
+    <nav class="nav-desktop">
+        <div class="navbar-container">
+            <div class="logo bx-flashing-hover">
+                <a href="index.html" style="color:var(--dark);"><span style="color:var(--primary);">S</span>hop.</a>
+            </div>
+            <ul class="nav-controls">
+                <li>
+                    <form class="search-bar">
+                        <i class="bx bx-search"></i>
+                        <input type="search" name="search" placeholder="Elektronik...">
+                    </form>
+                </li>
+                <li>
+                    <a class="basket-bar" href="basket.html">
+                        <i class="bx bx-basket" style="color:var(--primary);font-size:18px;"></i>
+                        <span>4</span>
+                    </a>
+                    <div class="basket-content">
+                        <div class="basket-header">
+                            <span class="basket-total-count">4 Ürün</span>
+                            <a href="basket.html" class="basket-view-cart">Sepete Git</a>
+                        </div>
+                        <div class="basket-body">
+                            <a href="" class="basket-item">
+                                <div class="basket-item-details">
+                                    <span class="basket-item-name">
+                                        Kesme Bıçağı Seti
+                                    </span>
+                                    <div class="basket-item-detail">
+                                        <span class="basket-item-count">1 x </span>
+                                        <div class="basket-item-price">500 ₺</div>
+                                    </div>
+                                </div>
+                                <div class="basket-transactions">
+                                    <button class="basket-delete-item">
+                                        <i class='bx bx-x'></i>
+                                    </button>
+                                </div>
+                                <img src="assets/img/products/1.jpg" alt="" class="basket-item-image">
+                            </a>
+                            <a href="" class="basket-item">
+                                <div class="basket-item-details">
+                                    <span class="basket-item-name">
+                                        Kesme Bıçağı Seti
+                                    </span>
+                                    <div class="basket-item-detail">
+                                        <span class="basket-item-count">1 x </span>
+                                        <div class="basket-item-price">500 ₺</div>
+                                    </div>
+                                </div>
+                                <div class="basket-transactions">
+                                    <button class="basket-delete-item">
+                                        <i class='bx bx-x'></i>
+                                    </button>
+                                </div>
+                                <img src="assets/img/products/1.jpg" alt="" class="basket-item-image">
+                            </a>
+                            <a href="" class="basket-item">
+                                <div class="basket-item-details">
+                                    <span class="basket-item-name">
+                                        Kesme Bıçağı Seti
+                                    </span>
+                                    <div class="basket-item-detail">
+                                        <span class="basket-item-count">1 x </span>
+                                        <div class="basket-item-price">500 ₺</div>
+                                    </div>
+                                </div>
+                                <div class="basket-transactions">
+                                    <button class="basket-delete-item">
+                                        <i class='bx bx-x'></i>
+                                    </button>
+                                </div>
+                                <img src="assets/img/products/1.jpg" alt="" class="basket-item-image">
+                            </a>
+                            <a href="" class="basket-item">
+                                <div class="basket-item-details">
+                                    <span class="basket-item-name">
+                                        Kesme Bıçağı Seti
+                                    </span>
+                                    <div class="basket-item-detail">
+                                        <span class="basket-item-count">1 x </span>
+                                        <div class="basket-item-price">500 ₺</div>
+                                    </div>
+                                </div>
+                                <div class="basket-transactions">
+                                    <button class="basket-delete-item">
+                                        <i class='bx bx-x'></i>
+                                    </button>
+                                </div>
+                                <img src="assets/img/products/1.jpg" alt="" class="basket-item-image">
+                            </a>
+                        </div>
+                        <div class="basket-footer">
+                            <button class="basket-checkout btn btn-primary btnfos">Siparişi Tamamla</button>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a class="account-button" href="account.html"><img src="assets/img/profil.png"></a>
+                    <div class="account-content">
+                        <a href="orders.html"><i class="bx bx-receipt"></i>Siparişlerim</a>
+                        <a href="account.html"><i class="bx bx-user"></i>Hesabım</a>
+                        <a href="wallet.html"><i class="bx bx-wallet"></i>Cüzdanım</a>
+                        <a href="login-signup.html"><i class="bx bx-log-out"></i>Çıkış Yap</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="burger" id="burger">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a class="active nav-links-title" href="#">Ana Kategori</a>
+                <div class="nav-links-inner">
+                    <div class="nav-links-inner-container">
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                    </div>
+                    <div class="nav-offers">
+                        <a href="" class="nav-offer imgShine nav-offer-title">
+                            <figure><img src="assets/img/offers/nav-offer-title.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a class="active nav-links-title" href="#">Ana Kategori</a>
+                <div class="nav-links-inner">
+                    <div class="nav-links-inner-container">
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                    </div>
+                    <div class="nav-offers">
+                        <a href="" class="nav-offer imgShine nav-offer-title">
+                            <figure><img src="assets/img/offers/nav-offer-title.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a class="active nav-links-title" href="#">Ana Kategori</a>
+                <div class="nav-links-inner">
+                    <div class="nav-links-inner-container">
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                    </div>
+                    <div class="nav-offers">
+                        <a href="" class="nav-offer imgShine nav-offer-title">
+                            <figure><img src="assets/img/offers/nav-offer-title.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a class="active nav-links-title" href="#">Ana Kategori</a>
+                <div class="nav-links-inner">
+                    <div class="nav-links-inner-container">
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                    </div>
+                    <div class="nav-offers">
+                        <a href="" class="nav-offer imgShine nav-offer-title">
+                            <figure><img src="assets/img/offers/nav-offer-title.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <nav class="nav-mobile">
+        <ul class="nav-link-big">
+            <li class="nav-link">Ana Kategori<i class="bx bx-chevron-right"></i></li>
+            <li class="nav-link">Ana Kategori<i class="bx bx-chevron-right"></i></li>
+            <li class="nav-link">Ana Kategori<i class="bx bx-chevron-right"></i></li>
+            <li class="nav-link">Ana Kategori<i class="bx bx-chevron-right"></i></li>
+            <li class="nav-link">Ana Kategori<i class="bx bx-chevron-right"></i></li>
+            <li class="nav-link">Ana Kategori<i class="bx bx-chevron-right"></i></li>
+        </ul>
+    </nav>
+
+    <div class="breadcumb">
+        <ul class="collapsed">
+            <li><a href="#">Anasayfa</a></li>
+            <li><a href="#">Elektronik</a></li>
+            <li><a href="#">Araçlar</a></li>
+        </ul>
+    </div>
+
+    <section class="product-details">
+        <div class="product-gallery">
+            <div class="swiper-container gallery-top">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image:url(assets/img/1.png)"></div>
+                    <div class="swiper-slide" style="background-image:url(assets/img/1.png)"></div>
+                    <div class="swiper-slide" style="background-image:url(assets/img/1.png)"></div>
+                    <div class="swiper-slide" style="background-image:url(assets/img/1.png)"></div>
+                </div>
+
+                <div class="swiper-button-next swiper-button-white"></div>
+                <div class="swiper-button-prev swiper-button-white"></div>
+            </div>
+            <div class="swiper-container gallery-thumbs">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image:url(assets/img/1.png)">
+                        <div class="thumb-overlay"></div>
+                    </div>
+                    <div class="swiper-slide" style="background-image:url(assets/img/1.png)">
+                        <div class="thumb-overlay"></div>
+                    </div>
+                    <div class="swiper-slide" style="background-image:url(assets/img/1.png)">
+                        <div class="thumb-overlay"></div>
+                    </div>
+                    <div class="swiper-slide" style="background-image:url(assets/img/1.png)">
+                        <div class="thumb-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product-detail">
+            <h1 class="product-name">Pirge Ecco Şef Baba Bıçak Seti</h1>
+            <span class="product-seller">by <a href="" class="primary-text">Pirge</a></span>
+
+            <div class="product-info">
+                <div class="product-price-info">
+                    <div class="product-price">
+                        <span><span id="product-price">2500</span><i class='bx bx-lira'></i></span>
+                    </div>
+                    <div class="product-discount-info">
+                        <span class="product-discount">%10 İndirim</span>
+                        <span class="product-tax-info">Kdv Dahil Fiyat</span>
+                    </div>
+                </div>
+                <form class="product-transactions" method="POST">
+                    <div class="quantity">
+                        <div>
+                            <input class="quantity-input" type="number" min="1" max="15" step="1" value="1">
+                            <div class="quantity-div">
+                                <i class='bx bx-chevron-up quantity-button quantity-up'></i>
+                                <i class='bx bx-chevron-down quantity-button quantity-down'></i>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-hover primary-bg add-basket" type="submit">Sepete Ekle</button>
+                </form>
+            </div>
+            <span class="product-description">
+                Mutfakta profesyonelliğe ilk adımı atmaya hazırlananların tercihi, sade tasarımlı, sağlam, paslanmaz,
+                keskin bıçaklar.
+            </span>
+            <div class="product-offers">
+                <a href="#" class="product-offer">
+                    <img src="assets/img/offers/o1.png">
+                </a>
+                <a href="#" class="product-offer">
+                    <img src="assets/img/offers/o2.png">
+                </a>
+                <a href="#" class="product-offer">
+                    <img src="assets/img/offers/o3.png">
+                </a>
+                <a href="#" class="product-offer">
+                    <img src="assets/img/offers/o4.png">
+                </a>
+                <a href="#" class="product-offer">
+                    <img src="assets/img/offers/o5.png">
+                </a>
+            </div>
+            <!--<div class="product-user-transactions">
+                <a href="" class="like">
+                    <i class='bx bx-heart'></i>
+                    Beğen
+                </a>
+                <a href="" class="list">
+                    <i class='bx bx-bookmark' ></i>
+                    Listeme Ekle
+                </a>
+                <a href="" class="discount-area">
+                    <i class='bx bx-bell' ></i>
+                    İndirim Bildirimi
+                </a>
+            </div>-->
+        </div>
+    </section>
+
+    <section class="product-tabs-section">
+        <input class="product-tab-radio" id="one" name="group" type="radio" checked>
+        <input class="product-tab-radio" id="two" name="group" type="radio">
+        <input class="product-tab-radio" id="three" name="group" type="radio">
+        <div class="product-tabs">
+            <label class="product-tab" id="one-tab" for="one">Ürün Açıklaması</label>
+            <label class="product-tab" id="two-tab" for="two">Ürün Değerlendirmeleri</label>
+            <label class="product-tab" id="three-tab" for="three">İade Koşulları</label>
+        </div>
+        <div class="product-tabs-panels">
+
+            <div class="product-tabs-panel" id="one-panel">
+                <section class="product-bottom-section">
+                    <table class="product-bottom-details">
+                        <tr>
+                            <td>Alfreds Futterkiste</td>
+                            <td>Maria Anders</td>
+                        </tr>
+                        <tr>
+                            <td>Centro comercial Moctezuma</td>
+                            <td>Francisco Chang</td>
+                        </tr>
+                        <tr>
+                            <td>Ernst Handel</td>
+                            <td>Roland Mendel</td>
+                        </tr>
+                    </table>
+                </section>
+            </div>
+            <div class="product-tabs-panel" id="two-panel">
+                <div class="product-comments">
+                    <div class="add-product-comment">
+                        <form action="POST">
+                            <div class="product-rating">
+                                <span><input class="rateInput"type="radio" name="rating" id="str5" value="5"><label for="str5"> <i class='bx bxs-star'></i></label></span>
+                                <span><input class="rateInput"type="radio" name="rating" id="str4" value="4"><label for="str4"> <i class='bx bxs-star'></i></label></span>
+                                <span><input class="rateInput"type="radio" name="rating" id="str3" value="3"><label for="str3"> <i class='bx bxs-star'></i></label></span>
+                                <span><input class="rateInput"type="radio" name="rating" id="str2" value="2"><label for="str2"> <i class='bx bxs-star'></i></label></span>
+                                <span><input class="rateInput"type="radio" name="rating" id="str1" value="1"><label for="str1"> <i class='bx bxs-star'></i></label></span>
+                            </div>
+                            <input type="text" class="commentInput" name="comment" placeholder="Yorumunuz...">
+                            <label for="file-upload" class="file-upload-button btn btn-hover primary-bg">
+                                <i class='bx bx-paperclip'></i> Fotoğraf Ekle
+                            </label>
+                            <input class="file-upload"  id="file-upload" type="file">
+                        </form>
+                    </div>
+                    <div class="product-comment">
+                        <div class="user-profile">
+                            <span>ECB</span>
+                        </div>
+                        <div class="user-comment">
+                            <div class="user-review-detail">
+                                <div class="user-rate">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bx-star'></i>
+                                </div>
+                                <div class="user-date-of-rate">
+                                    13 Aralık 2020, Pazar
+                                </div>
+                                <div class="user-name">
+                                    E**** C**** B**** (23)
+                                </div>
+                            </div>
+                            <span>
+                                Bıçaklar oldukça kaliteli, gerçekten fark ediyor. Sapların biraz daha kaliteli olmasını
+                                beklerdim (basit puturlu ve çapakli plastik) ancak bu haliyle de is görür. PTT kargo
+                                sagolsun ürünü 1haftada getirdi.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="product-comment">
+                        <div class="user-profile">
+                            <span>SD</span>
+                        </div>
+                        <div class="user-comment">
+                            <div class="user-review-detail">
+                                <div class="user-rate">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                </div>
+                                <div class="user-date-of-rate">
+                                    13 Aralık 2020, Pazar
+                                </div>
+                                <div class="user-name">
+                                    E**** C**** B**** (23)
+                                </div>
+                            </div>
+                            <span>
+                                Bu bıçakları kullandıktan sonra şimdiye kadar kullandıklarım neydi diye sordum kendime.
+                                Gerçekten başarılı ürünler.
+                                Dipnot; şef bıçağına aşina olmayan benim gibi tüketiciler varsa bir mağazada test
+                                etmelerini öneririm. Çünkü bu bıçakların ölçülerindeki milimetrik farklar bile
+                                profesyonel olmayan mutfakseverler için önemli olabilir. Şahsen biraz daha dolgun bir
+                                tutma sapı daha çok işime gelirdi. </span>
+                        </div>
+                    </div>
+                    <div class="product-comment">
+                        <div class="user-profile">
+                            <span>HB</span>
+                        </div>
+                        <div class="user-comment">
+                            <div class="user-review-detail">
+                                <div class="user-rate">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                </div>
+                                <div class="user-date-of-rate">
+                                    13 Aralık 2020, Pazar
+                                </div>
+                                <div class="user-name">
+                                    H**** B**** (50)
+                                </div>
+                            </div>
+                            <span>
+                                Eşim bir haftada 3 kere elini kesti. ya bıçaklar çok iyi yada eşim biraz sakar.. </span>
+                        </div>
+                    </div>
+                    <div class="product-comment">
+                        <div class="user-profile">
+                            <span>HOB</span>
+                        </div>
+                        <div class="user-comment">
+                            <div class="user-review-detail">
+                                <div class="user-rate">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                </div>
+                                <div class="user-date-of-rate">
+                                    13 Aralık 2020, Pazar
+                                </div>
+                                <div class="user-name">
+                                    E**** C**** B**** (25)
+                                </div>
+                            </div>
+                            <span>
+                                Annem çok beğenmiş buraya yazmamı istedi şiddetle tavsiye ediyor.Çok keskinmiş. </span>
+                        </div>
+                    </div>
+                    <div class="product-comment">
+                        <div class="user-profile">
+                            <span>FB</span>
+                        </div>
+                        <div class="user-comment">
+                            <div class="user-review-detail">
+                                <div class="user-rate">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bx-star'></i>
+                                </div>
+                                <div class="user-date-of-rate">
+                                    13 Aralık 2020, Pazar
+                                </div>
+                                <div class="user-name">
+                                    F**** B**** (45)
+                                </div>
+                            </div>
+                            <span>
+                                Almadan önce internette onlarca olumsuz yorum okudum. Hiçbir olumsuz yorumu haketmeyen
+                                bir ürün. Gerek keskinliği gerekse de siyah sapını kalitesi tartışılacak gibi değil.
+                                Düşünmeden alın. Mutfakta rahatlayacaksınız.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-tabs-panel" id="three-panel">
+                <p>We recommend that you complete Learn HTML before learning CSS.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-middle">
+            <div class="footer-social">
+                <a class="bx-tada-hover" href=""><i class='bx bxl-facebook'></i></a>
+                <a class="bx-tada-hover" href=""><i class='bx bxl-twitter'></i></a>
+                <a class="bx-tada-hover" href=""><i class='bx bxl-instagram'></i></a>
+                <a class="bx-tada-hover" href=""><i class='bx bxl-youtube'></i></a>
+                <a class="bx-tada-hover" href=""><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <div class="footer-store">
+                <a class="bx-tada-hover" href=""><i class='bx bxl-play-store'></i>Play Store</a>
+                <a class="bx-tada-hover" href=""><i class='bx bxl-apple'></i>App Store</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span class="footer-copyright">© Copyright 2001-2021 Shop.com</span>
+            <div class="footer-bottom-links">
+                <a href="">Gizlilik Politikası</a>
+                <a href="">Çerez Politikası</a>
+                <a href="">Kullanıcı Sözleşmesi</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/swiper-bundle.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/quantity.js"></script>
+    <script>
+        var galleryThumbs = new Swiper('.gallery-thumbs', {
+            spaceBetween: 30,
+            slidesPerView: 3,
+            loop: true,
+            freeMode: true,
+            loopedSlides: 5, //looped slides should be the same
+            watchSlidesVisibility: true,
+            watchSlidesProgress: true,
+        });
+        var galleryTop = new Swiper('.gallery-top', {
+            spaceBetween: 30,
+            loop: true,
+            loopedSlides: 5, //looped slides should be the same
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            thumbs: {
+                swiper: galleryThumbs,
+            },
+        });
+    </script>
+
+</body>
+
+</html>

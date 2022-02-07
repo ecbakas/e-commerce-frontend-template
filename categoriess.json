@@ -1,0 +1,1011 @@
+[{
+    "name":"Menü",
+    "multiple":true,
+    "children":[
+        {
+            "name": "Elektronik",
+            "dataSub":"elektronik",
+            "image":"",
+            "multiple": true,
+            "children": [
+                {
+                    "name": "Bilgisayar & Tablet",
+                    "dataSub":"bilgisayarTablet",
+                    "image":"",
+                    "multiple": true,
+                    "children": [
+                        {
+                            "name": "Dizüstü Bilgisayar",
+                            "multiple": true,
+                            "dataSub":"dizustuBilgisayar",
+                            "image":"",
+                            "children": [
+                                {       
+                                    "name": "Notebook"
+                                },
+                                {
+                                    "name": "Oyun Bilgisayarları"
+                                },
+                                {
+                                    "name": "İkisi Bir Arada"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Tablet",
+                            "multiple": true,
+                            "dataSub":"tablet",
+                            "image":"",
+                            "children": [
+                                {       
+                                    "name": "Apple"
+                                },
+                                {
+                                    "name": "Samsung"
+                                },
+                                {
+                                    "name": "Lenovo"
+                                },
+                                {
+                                    "name": "Alcatel"
+                                },
+                                {
+                                    "name": "Hometech"
+                                },
+                                {
+                                    "name": "Huawei"
+                                },
+                                {
+                                    "name": "Reeder"
+                                },
+                                {
+                                    "name": "Diğer"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Masaüstü Bilgisayar",
+                            "multiple": true,
+                            "dataSub":"masaustuBilgisayar",
+                            "image":"",
+                            "children": [
+                                {       
+                                    "name": "All-in-One"
+                                },
+                                {
+                                    "name": "Masaüstü"
+                                },
+                                {
+                                    "name": "Mini Masaüstü"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Oyuncu Özel",
+                            "multiple": true,
+                            "dataSub":"oyuncuOzel",
+                            "image":"",
+                            "children": [
+                                {       
+                                    "name": "Oyun Bilgisayarı"
+                                },
+                                {
+                                    "name": "Oyun Donanımları"
+                                },
+                                {
+                                    "name": "Oyuncu Koltuğu"
+                                },
+                                {
+                                    "name": "Klavye"
+                                },
+                                {
+                                    "name": "Mouse"
+                                },
+                                {
+                                    "name": "Kulaklık"
+                                },
+                                {
+                                    "name": "Oyuncu Masası"
+                                },
+                                {
+                                    "name": "Monitör"
+                                }
+                            ]
+                        }             
+                    ]
+                },
+                {
+                    "name": "Yazıcılar & Projeksiyon",
+                    "dataSub":"yazicilarProjeksiyon",
+                    "image":"",
+                    "multiple": true,
+                    "children": [
+                        {
+                            "name": "Dizüstü Bilgisayar",
+                            "multiple": true,
+                            "dataSub":"dizustuBilgisayar",
+                            "image":"",
+                            "children": [
+                                {       
+                                    "name": "Notebook"
+                                },
+                                {
+                                    "name": "Oyun Bilgisayarları"
+                                },
+                                {
+                                    "name": "İkisi Bir Arada"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Tablet",
+                            "multiple": true,
+                            "dataSub":"tablet",
+                            "image":"",
+                            "children": [
+                                {       
+                                    "name": "Apple"
+                                },
+                                {
+                                    "name": "Samsung"
+                                },
+                                {
+                                    "name": "Lenovo"
+                                },
+                                {
+                                    "name": "Alcatel"
+                                },
+                                {
+                                    "name": "Hometech"
+                                },
+                                {
+                                    "name": "Huawei"
+                                },
+                                {
+                                    "name": "Reeder"
+                                },
+                                {
+                                    "name": "Diğer"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Masaüstü Bilgisayar",
+                            "multiple": true,
+                            "dataSub":"masaustuBilgisayar",
+                            "image":"",
+                            "children": [
+                                {       
+                                    "name": "All-in-One"
+                                },
+                                {
+                                    "name": "Masaüstü"
+                                },
+                                {
+                                    "name": "Mini Masaüstü"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Oyuncu Özel",
+                            "multiple": true,
+                            "dataSub":"oyuncuOzel",
+                            "image":"",
+                            "children": [
+                                {       
+                                    "name": "Oyun Bilgisayarı"
+                                },
+                                {
+                                    "name": "Oyun Donanımları"
+                                },
+                                {
+                                    "name": "Oyuncu Koltuğu"
+                                },
+                                {
+                                    "name": "Klavye"
+                                },
+                                {
+                                    "name": "Mouse"
+                                },
+                                {
+                                    "name": "Kulaklık"
+                                },
+                                {
+                                    "name": "Oyuncu Masası"
+                                },
+                                {
+                                    "name": "Monitör"
+                                }
+                            ]
+                        }             
+                    ]
+                },
+                {
+                    "name": "Telefon & Telefon Aksesuarları",
+                    "dataSub":"telefonTelefonAksesuarlari",
+                    "image":"",
+                    "multiple": true,
+                    "children": [
+                        {
+                            "name": "Dizüstü Bilgisayar",
+                            "multiple": true,
+                            "dataSub":"dizustuBilgisayar",
+                            "image":"",
+                            "children": [
+                                {       
+                                    "name": "Notebook"
+                                },
+                                {
+                                    "name": "Oyun Bilgisayarları"
+                                },
+                                {
+                                    "name": "İkisi Bir Arada"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Tablet",
+                            "multiple": true,
+                            "dataSub":"tablet",
+                            "image":"",
+                            "children": [
+                                {       
+                                    "name": "Apple"
+                                },
+                                {
+                                    "name": "Samsung"
+                                },
+                                {
+                                    "name": "Lenovo"
+                                },
+                                {
+                                    "name": "Alcatel"
+                                },
+                                {
+                                    "name": "Hometech"
+                                },
+                                {
+                                    "name": "Huawei"
+                                },
+                                {
+                                    "name": "Reeder"
+                                },
+                                {
+                                    "name": "Diğer"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Masaüstü Bilgisayar",
+                            "multiple": true,
+                            "dataSub":"masaustuBilgisayar",
+                            "image":"",
+                            "children": [
+                                {       
+                                    "name": "All-in-One"
+                                },
+                                {
+                                    "name": "Masaüstü"
+                                },
+                                {
+                                    "name": "Mini Masaüstü"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Oyuncu Özel",
+                            "multiple": true,
+                            "dataSub":"oyuncuOzel",
+                            "image":"",
+                            "children": [
+                                {       
+                                    "name": "Oyun Bilgisayarı"
+                                },
+                                {
+                                    "name": "Oyun Donanımları"
+                                },
+                                {
+                                    "name": "Oyuncu Koltuğu"
+                                },
+                                {
+                                    "name": "Klavye"
+                                },
+                                {
+                                    "name": "Mouse"
+                                },
+                                {
+                                    "name": "Kulaklık"
+                                },
+                                {
+                                    "name": "Oyuncu Masası"
+                                },
+                                {
+                                    "name": "Monitör"
+                                }
+                            ]
+                        }             
+                    ]
+                },
+                {
+                    "name": "TV, Görüntü & Ses Sistemleri",
+                    "dataSub":"tvGoruntuSesSistemleri",
+                    "image":"",
+                    "multiple": true,
+                    "children": [
+                        {
+                            "name": "Dizüstü Bilgisayar",
+                            "multiple": true,
+                            "dataSub":"dizustuBilgisayar",
+                            "image":"",
+                            "children": [
+                                {       
+                                    "name": "Notebook"
+                                },
+                                {
+                                    "name": "Oyun Bilgisayarları"
+                                },
+                                {
+                                    "name": "İkisi Bir Arada"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Tablet",
+                            "multiple": true,
+                            "dataSub":"tablet",
+                            "image":"",
+                            "children": [
+                                {       
+                                    "name": "Apple"
+                                },
+                                {
+                                    "name": "Samsung"
+                                },
+                                {
+                                    "name": "Lenovo"
+                                },
+                                {
+                                    "name": "Alcatel"
+                                },
+                                {
+                                    "name": "Hometech"
+                                },
+                                {
+                                    "name": "Huawei"
+                                },
+                                {
+                                    "name": "Reeder"
+                                },
+                                {
+                                    "name": "Diğer"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Masaüstü Bilgisayar",
+                            "multiple": true,
+                            "dataSub":"masaustuBilgisayar",
+                            "image":"",
+                            "children": [
+                                {       
+                                    "name": "All-in-One"
+                                },
+                                {
+                                    "name": "Masaüstü"
+                                },
+                                {
+                                    "name": "Mini Masaüstü"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Oyuncu Özel",
+                            "multiple": true,
+                            "dataSub":"oyuncuOzel",
+                            "image":"",
+                            "children": [
+                                {       
+                                    "name": "Oyun Bilgisayarı"
+                                },
+                                {
+                                    "name": "Oyun Donanımları"
+                                },
+                                {
+                                    "name": "Oyuncu Koltuğu"
+                                },
+                                {
+                                    "name": "Klavye"
+                                },
+                                {
+                                    "name": "Mouse"
+                                },
+                                {
+                                    "name": "Kulaklık"
+                                },
+                                {
+                                    "name": "Oyuncu Masası"
+                                },
+                                {
+                                    "name": "Monitör"
+                                }
+                            ]
+                        }             
+                    ]
+                },
+                {
+                    "name": "Beyaz Eşya",
+                    "dataSub":"beyazEsya",
+                    "image":"",
+                    "multiple": true,
+                    "children": [
+                        {
+                            "name": "Dizüstü Bilgisayar",
+                            "multiple": true,
+                            "dataSub":"dizustuBilgisayar",
+                            "image":"",
+                            "children": [
+                                {       
+                                    "name": "Notebook"
+                                },
+                                {
+                                    "name": "Oyun Bilgisayarları"
+                                },
+                                {
+                                    "name": "İkisi Bir Arada"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Tablet",
+                            "multiple": true,
+                            "dataSub":"tablet",
+                            "image":"",
+                            "children": [
+                                {       
+                                    "name": "Apple"
+                                },
+                                {
+                                    "name": "Samsung"
+                                },
+                                {
+                                    "name": "Lenovo"
+                                },
+                                {
+                                    "name": "Alcatel"
+                                },
+                                {
+                                    "name": "Hometech"
+                                },
+                                {
+                                    "name": "Huawei"
+                                },
+                                {
+                                    "name": "Reeder"
+                                },
+                                {
+                                    "name": "Diğer"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Masaüstü Bilgisayar",
+                            "multiple": true,
+                            "dataSub":"masaustuBilgisayar",
+                            "image":"",
+                            "children": [
+                                {       
+                                    "name": "All-in-One"
+                                },
+                                {
+                                    "name": "Masaüstü"
+                                },
+                                {
+                                    "name": "Mini Masaüstü"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Oyuncu Özel",
+                            "multiple": true,
+                            "dataSub":"oyuncuOzel",
+                            "image":"",
+                            "children": [
+                                {       
+                                    "name": "Oyun Bilgisayarı"
+                                },
+                                {
+                                    "name": "Oyun Donanımları"
+                                },
+                                {
+                                    "name": "Oyuncu Koltuğu"
+                                },
+                                {
+                                    "name": "Klavye"
+                                },
+                                {
+                                    "name": "Mouse"
+                                },
+                                {
+                                    "name": "Kulaklık"
+                                },
+                                {
+                                    "name": "Oyuncu Masası"
+                                },
+                                {
+                                    "name": "Monitör"
+                                }
+                            ]
+                        }             
+                    ]
+                },
+                {
+                    "name": "Klima ve Isıtıcılar",
+                    "dataSub":"klimaVeIsiticilar",
+                    "image":"",
+                    "multiple": true,
+                    "children": [
+                        {
+                            "name": "Dizüstü Bilgisayar",
+                            "multiple": true,
+                            "dataSub":"dizustuBilgisayar",
+                            "image":"",
+                            "children": [
+                                {       
+                                    "name": "Notebook"
+                                },
+                                {
+                                    "name": "Oyun Bilgisayarları"
+                                },
+                                {
+                                    "name": "İkisi Bir Arada"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Tablet",
+                            "multiple": true,
+                            "dataSub":"tablet",
+                            "image":"",
+                            "children": [
+                                {       
+                                    "name": "Apple"
+                                },
+                                {
+                                    "name": "Samsung"
+                                },
+                                {
+                                    "name": "Lenovo"
+                                },
+                                {
+                                    "name": "Alcatel"
+                                },
+                                {
+                                    "name": "Hometech"
+                                },
+                                {
+                                    "name": "Huawei"
+                                },
+                                {
+                                    "name": "Reeder"
+                                },
+                                {
+                                    "name": "Diğer"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Masaüstü Bilgisayar",
+                            "multiple": true,
+                            "dataSub":"masaustuBilgisayar",
+                            "image":"",
+                            "children": [
+                                {       
+                                    "name": "All-in-One"
+                                },
+                                {
+                                    "name": "Masaüstü"
+                                },
+                                {
+                                    "name": "Mini Masaüstü"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Oyuncu Özel",
+                            "multiple": true,
+                            "dataSub":"oyuncuOzel",
+                            "image":"",
+                            "children": [
+                                {       
+                                    "name": "Oyun Bilgisayarı"
+                                },
+                                {
+                                    "name": "Oyun Donanımları"
+                                },
+                                {
+                                    "name": "Oyuncu Koltuğu"
+                                },
+                                {
+                                    "name": "Klavye"
+                                },
+                                {
+                                    "name": "Mouse"
+                                },
+                                {
+                                    "name": "Kulaklık"
+                                },
+                                {
+                                    "name": "Oyuncu Masası"
+                                },
+                                {
+                                    "name": "Monitör"
+                                }
+                            ]
+                        }             
+                    ]
+                },
+                {
+                    "name": "Elektrikli Ev Aletleri",
+                    "dataSub":"elektrikliEvAletleri",
+                    "image":"",
+                    "multiple": true,
+                    "children": [
+                        {
+                            "name": "Dizüstü Bilgisayar",
+                            "multiple": true,
+                            "dataSub":"dizustuBilgisayar",
+                            "image":"",
+                            "children": [
+                                {       
+                                    "name": "Notebook"
+                                },
+                                {
+                                    "name": "Oyun Bilgisayarları"
+                                },
+                                {
+                                    "name": "İkisi Bir Arada"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Tablet",
+                            "multiple": true,
+                            "dataSub":"tablet",
+                            "image":"",
+                            "children": [
+                                {       
+                                    "name": "Apple"
+                                },
+                                {
+                                    "name": "Samsung"
+                                },
+                                {
+                                    "name": "Lenovo"
+                                },
+                                {
+                                    "name": "Alcatel"
+                                },
+                                {
+                                    "name": "Hometech"
+                                },
+                                {
+                                    "name": "Huawei"
+                                },
+                                {
+                                    "name": "Reeder"
+                                },
+                                {
+                                    "name": "Diğer"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Masaüstü Bilgisayar",
+                            "multiple": true,
+                            "dataSub":"masaustuBilgisayar",
+                            "image":"",
+                            "children": [
+                                {       
+                                    "name": "All-in-One"
+                                },
+                                {
+                                    "name": "Masaüstü"
+                                },
+                                {
+                                    "name": "Mini Masaüstü"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Oyuncu Özel",
+                            "multiple": true,
+                            "dataSub":"oyuncuOzel",
+                            "image":"",
+                            "children": [
+                                {       
+                                    "name": "Oyun Bilgisayarı"
+                                },
+                                {
+                                    "name": "Oyun Donanımları"
+                                },
+                                {
+                                    "name": "Oyuncu Koltuğu"
+                                },
+                                {
+                                    "name": "Klavye"
+                                },
+                                {
+                                    "name": "Mouse"
+                                },
+                                {
+                                    "name": "Kulaklık"
+                                },
+                                {
+                                    "name": "Oyuncu Masası"
+                                },
+                                {
+                                    "name": "Monitör"
+                                }
+                            ]
+                        }             
+                    ]
+                },
+                {
+                    "name": "Foto & Kamera",
+                    "dataSub":"fotoKamera",
+                    "image":"",
+                    "multiple": true,
+                    "children": [
+                        {
+                            "name": "Dizüstü Bilgisayar",
+                            "multiple": true,
+                            "dataSub":"dizustuBilgisayar",
+                            "image":"",
+                            "children": [
+                                {       
+                                    "name": "Notebook"
+                                },
+                                {
+                                    "name": "Oyun Bilgisayarları"
+                                },
+                                {
+                                    "name": "İkisi Bir Arada"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Tablet",
+                            "multiple": true,
+                            "dataSub":"tablet",
+                            "image":"",
+                            "children": [
+                                {       
+                                    "name": "Apple"
+                                },
+                                {
+                                    "name": "Samsung"
+                                },
+                                {
+                                    "name": "Lenovo"
+                                },
+                                {
+                                    "name": "Alcatel"
+                                },
+                                {
+                                    "name": "Hometech"
+                                },
+                                {
+                                    "name": "Huawei"
+                                },
+                                {
+                                    "name": "Reeder"
+                                },
+                                {
+                                    "name": "Diğer"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Masaüstü Bilgisayar",
+                            "multiple": true,
+                            "dataSub":"masaustuBilgisayar",
+                            "image":"",
+                            "children": [
+                                {       
+                                    "name": "All-in-One"
+                                },
+                                {
+                                    "name": "Masaüstü"
+                                },
+                                {
+                                    "name": "Mini Masaüstü"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Oyuncu Özel",
+                            "multiple": true,
+                            "dataSub":"oyuncuOzel",
+                            "image":"",
+                            "children": [
+                                {       
+                                    "name": "Oyun Bilgisayarı"
+                                },
+                                {
+                                    "name": "Oyun Donanımları"
+                                },
+                                {
+                                    "name": "Oyuncu Koltuğu"
+                                },
+                                {
+                                    "name": "Klavye"
+                                },
+                                {
+                                    "name": "Mouse"
+                                },
+                                {
+                                    "name": "Kulaklık"
+                                },
+                                {
+                                    "name": "Oyuncu Masası"
+                                },
+                                {
+                                    "name": "Monitör"
+                                }
+                            ]
+                        }             
+                    ]
+                },
+                {
+                    "name": "Oyun & Oyun Konsolları",
+                    "dataSub":"oyunOyunKonsollari",
+                    "image":"",
+                    "multiple": true,
+                    "children": [
+                        {
+                            "name": "Dizüstü Bilgisayar",
+                            "multiple": true,
+                            "dataSub":"dizustuBilgisayar",
+                            "image":"",
+                            "children": [
+                                {       
+                                    "name": "Notebook"
+                                },
+                                {
+                                    "name": "Oyun Bilgisayarları"
+                                },
+                                {
+                                    "name": "İkisi Bir Arada"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Tablet",
+                            "multiple": true,
+                            "dataSub":"tablet",
+                            "image":"",
+                            "children": [
+                                {       
+                                    "name": "Apple"
+                                },
+                                {
+                                    "name": "Samsung"
+                                },
+                                {
+                                    "name": "Lenovo"
+                                },
+                                {
+                                    "name": "Alcatel"
+                                },
+                                {
+                                    "name": "Hometech"
+                                },
+                                {
+                                    "name": "Huawei"
+                                },
+                                {
+                                    "name": "Reeder"
+                                },
+                                {
+                                    "name": "Diğer"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Masaüstü Bilgisayar",
+                            "multiple": true,
+                            "dataSub":"masaustuBilgisayar",
+                            "image":"",
+                            "children": [
+                                {       
+                                    "name": "All-in-One"
+                                },
+                                {
+                                    "name": "Masaüstü"
+                                },
+                                {
+                                    "name": "Mini Masaüstü"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Oyuncu Özel",
+                            "multiple": true,
+                            "dataSub":"oyuncuOzel",
+                            "image":"",
+                            "children": [
+                                {       
+                                    "name": "Oyun Bilgisayarı"
+                                },
+                                {
+                                    "name": "Oyun Donanımları"
+                                },
+                                {
+                                    "name": "Oyuncu Koltuğu"
+                                },
+                                {
+                                    "name": "Klavye"
+                                },
+                                {
+                                    "name": "Mouse"
+                                },
+                                {
+                                    "name": "Kulaklık"
+                                },
+                                {
+                                    "name": "Oyuncu Masası"
+                                },
+                                {
+                                    "name": "Monitör"
+                                }
+                            ]
+                        }             
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Moda",
+            "dataSub":"moda",
+            "image":"",
+            "multiple": false    
+        },
+        {
+            "name": "Ev, Yaşam, Kırtasiye, Ofis",
+            "dataSub":"evYasamKirtasiyeOfis",
+            "image":"",
+            "multiple": false    
+        },
+        {
+            "name": "Anne, Bebek, Oyuncak",
+            "dataSub":"anneBebekOyuncak",
+            "image":"",
+            "multiple": false    
+        },
+        {
+            "name": "Spor, Outdoor",
+            "dataSub":"sporOutdoor",
+            "image":"",
+            "multiple": false    
+        },
+        {
+            "name": "Kozmetik, Kişisel Bakım",
+            "dataSub":"kozmetikKisiselBakim",
+            "image":"",
+            "multiple": false    
+        },
+        {
+            "name": "Süpermarket, Petshop",
+            "dataSub":"supermarketPetshop",
+            "image":"",
+            "multiple": false    
+        },
+        {
+            "name": "Kitap, Müzik, Film, Hobi",
+            "dataSub":"kozmetikKisiselBakim",
+            "image":"",
+            "multiple": false    
+        }
+    ]
+}
+]

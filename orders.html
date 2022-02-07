@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alışveriş Merkezi</title>
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/account.css">
+    <script src="assets/js/navbar.js" defer></script>
+    <link href='assets/boxicons/css/boxicons.css' rel='stylesheet' preload>
+</head>
+
+<body>
+    <nav class="nav-desktop">
+        <div class="navbar-container">
+            <div class="logo bx-flashing-hover">
+                <a href="index.html" style="color:var(--dark);"><span style="color:var(--primary);">S</span>hop.</a>
+            </div>
+            <ul class="nav-controls">
+                <li>
+                    <form class="search-bar">
+                        <i class="bx bx-search"></i>
+                        <input type="search" name="search" placeholder="Elektronik...">
+                    </form>
+                </li>
+                <li>
+                    <a class="basket-bar" href="basket.html">
+                        <i class="bx bx-basket" style="color:var(--primary);font-size:18px;"></i>
+                        <span>4</span>
+                    </a>
+                    <div class="basket-content">
+                        <div class="basket-header">
+                            <span class="basket-total-count">4 Ürün</span>
+                            <a href="basket.html" class="basket-view-cart">Sepete Git</a>
+                        </div>
+                        <div class="basket-body">
+                            <a href="" class="basket-item">
+                                <div class="basket-item-details">
+                                    <span class="basket-item-name">
+                                        Kesme Bıçağı Seti
+                                    </span>
+                                    <div class="basket-item-detail">
+                                        <span class="basket-item-count">1 x </span>
+                                        <div class="basket-item-price">500 ₺</div>
+                                    </div>
+                                </div>
+                                <div class="basket-transactions">
+                                    <button class="basket-delete-item">
+                                        <i class='bx bx-x'></i>
+                                    </button>
+                                </div>
+                                <img src="assets/img/products/1.jpg" alt="" class="basket-item-image">
+                            </a>
+                            <a href="" class="basket-item">
+                                <div class="basket-item-details">
+                                    <span class="basket-item-name">
+                                        Kesme Bıçağı Seti
+                                    </span>
+                                    <div class="basket-item-detail">
+                                        <span class="basket-item-count">1 x </span>
+                                        <div class="basket-item-price">500 ₺</div>
+                                    </div>
+                                </div>
+                                <div class="basket-transactions">
+                                    <button class="basket-delete-item">
+                                        <i class='bx bx-x'></i>
+                                    </button>
+                                </div>
+                                <img src="assets/img/products/1.jpg" alt="" class="basket-item-image">
+                            </a>
+                            <a href="" class="basket-item">
+                                <div class="basket-item-details">
+                                    <span class="basket-item-name">
+                                        Kesme Bıçağı Seti
+                                    </span>
+                                    <div class="basket-item-detail">
+                                        <span class="basket-item-count">1 x </span>
+                                        <div class="basket-item-price">500 ₺</div>
+                                    </div>
+                                </div>
+                                <div class="basket-transactions">
+                                    <button class="basket-delete-item">
+                                        <i class='bx bx-x'></i>
+                                    </button>
+                                </div>
+                                <img src="assets/img/products/1.jpg" alt="" class="basket-item-image">
+                            </a>
+                            <a href="" class="basket-item">
+                                <div class="basket-item-details">
+                                    <span class="basket-item-name">
+                                        Kesme Bıçağı Seti
+                                    </span>
+                                    <div class="basket-item-detail">
+                                        <span class="basket-item-count">1 x </span>
+                                        <div class="basket-item-price">500 ₺</div>
+                                    </div>
+                                </div>
+                                <div class="basket-transactions">
+                                    <button class="basket-delete-item">
+                                        <i class='bx bx-x'></i>
+                                    </button>
+                                </div>
+                                <img src="assets/img/products/1.jpg" alt="" class="basket-item-image">
+                            </a>
+                        </div>
+                        <div class="basket-footer">
+                            <button class="basket-checkout btn btn-primary btnfos">Siparişi Tamamla</button>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a class="account-button" href="account.html"><img src="assets/img/profil.png"></a>
+                    <div class="account-content">
+                        <a href="orders.html"><i class="bx bx-receipt"></i>Siparişlerim</a>
+                        <a href="account.html"><i class="bx bx-user"></i>Hesabım</a>
+                        <a href="wallet.html"><i class="bx bx-wallet"></i>Cüzdanım</a>
+                        <a href="login-signup.html"><i class="bx bx-log-out"></i>Çıkış Yap</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="burger" id="burger">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a class="active nav-links-title" href="#">Ana Kategori</a>
+                <div class="nav-links-inner">
+                    <div class="nav-links-inner-container">
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                    </div>
+                    <div class="nav-offers">
+                        <a href="" class="nav-offer imgShine nav-offer-title">
+                            <figure><img src="assets/img/offers/nav-offer-title.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a class="active nav-links-title" href="#">Ana Kategori</a>
+                <div class="nav-links-inner">
+                    <div class="nav-links-inner-container">
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                    </div>
+                    <div class="nav-offers">
+                        <a href="" class="nav-offer imgShine nav-offer-title">
+                            <figure><img src="assets/img/offers/nav-offer-title.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a class="active nav-links-title" href="#">Ana Kategori</a>
+                <div class="nav-links-inner">
+                    <div class="nav-links-inner-container">
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                    </div>
+                    <div class="nav-offers">
+                        <a href="" class="nav-offer imgShine nav-offer-title">
+                            <figure><img src="assets/img/offers/nav-offer-title.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a class="active nav-links-title" href="#">Ana Kategori</a>
+                <div class="nav-links-inner">
+                    <div class="nav-links-inner-container">
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                        <div class="nav-links-inner-column">
+                            <a href="" class="nav-links-inner-title">İç Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                            <a href="" class="nav-links-inner-links">Kategori</a>
+                        </div>
+                    </div>
+                    <div class="nav-offers">
+                        <a href="" class="nav-offer imgShine nav-offer-title">
+                            <figure><img src="assets/img/offers/nav-offer-title.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                        <a href="" class="nav-offer imgShine">
+                            <figure><img src="assets/img/offers/nav-offer-1.png"></figure>
+                        </a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <nav class="nav-mobile">
+        <ul class="nav-link-big">
+            <li class="nav-link">Ana Kategori<i class="bx bx-chevron-right"></i></li>
+            <li class="nav-link">Ana Kategori<i class="bx bx-chevron-right"></i></li>
+            <li class="nav-link">Ana Kategori<i class="bx bx-chevron-right"></i></li>
+            <li class="nav-link">Ana Kategori<i class="bx bx-chevron-right"></i></li>
+            <li class="nav-link">Ana Kategori<i class="bx bx-chevron-right"></i></li>
+            <li class="nav-link">Ana Kategori<i class="bx bx-chevron-right"></i></li>
+        </ul>
+    </nav>
+    <div class="breadcumb">
+        <ul class="collapsed">
+            <li><a href="#">Anasayfa</a></li>
+            <li><a href="#">Hesabım</a></li>
+        </ul>
+    </div>
+    <section class="main-template">
+        <div class="sidebar-layout">
+            <ul class="account-list">
+                <li><a href="account.html" class="account-list-item"><i class='bx bx-user'></i><span>Ertuğrulcan
+                            Bakas</span></a></li>
+                <li><a href="orders.html" class="account-list-item user-list-item-active"><i
+                            class='bx bx-box'></i><span>Siparişlerim</span></a></li>
+                <li><a href="wallet.html" class="account-list-item"><i
+                            class='bx bx-wallet'></i><span>Cüzdanım</span></a></li>
+                <li><a href="address.html" class="account-list-item"><i
+                            class='bx bx-map-pin'></i><span>Adreslerim</span></a></li>
+                <li><a href="settings.html" class="account-list-item"><i
+                            class='bx bx-slider'></i><span>Ayarlarım</span></a></li>
+                <li><a href="tickets.html" class="account-list-item"><i class='bx bx-help-circle'></i><span>Destek
+                            taleplerim</span></a></li>
+                <li><a href="reviews.html" class="account-list-item"><i
+                            class='bx bx-comment-check'></i><span>Değerlendirmelerim</span></a></li>
+            </ul>
+        </div>
+        <div class="account-layout">
+            <div class="account-layout-title"><span>Siparişlerim</span></div>
+            <div class="account-layout-description">
+                <div class="orders-header">
+                    <form class="search-bar">
+                        <i class="bx bx-search"></i>
+                        <input type="search" name="search" placeholder="Siparişlerimde ara..">
+                    </form>
+                    <div class="filter-area">
+                        <label for="filters">Tarihe Göre Listele</label>
+                        <form class="filter-bar">
+                            <select name="filters" id="filters">
+                                <option value="value1">Tümü</option>
+                                <option value="value2">Son 30 Gün</option>
+                                <option value="value2">Son 6 Ay</option>
+                                <option value="value2">Son 1 Yıl</option>
+                                <option value="value2">Daha öncesi</option>
+                            </select>
+                        </form>
+                    </div>
+                </div>
+                <div class="orders-list">
+                    <div class="order-date-seperator">
+                        <span>Mart</span>
+                    </div>
+                    <a href="order-detail.html" class="order">
+                        <div class="order-images">
+                            <img src="assets/img/products/1.jpg" alt="">
+                            <img src="assets/img/products/2.jpg" alt="">
+                            <img src="assets/img/products/3.jpg" alt="">
+                        </div>
+                        <div class="order-info">
+                            <div class="order-id">
+                                Sipariş No <span>391 994 689</span>
+                            </div>
+                            <div class="order-date">
+                                2 Mart Salı, 23:36
+                            </div>
+                        </div>
+                        <div class="order-status order-completed">
+                            <i class='bx bx-check-circle'></i>
+                            <span style="color:var(--dark);">Sipariş tamamlandı</span>
+                        </div>
+                        <div class="order-price-info">
+                            <div class="order-price">
+                                504,61 ₺
+                            </div>
+                            <div class="order-payment-method">
+                                Kredi Kartı
+                            </div>
+                        </div>
+                    </a>
+                    <a href="order-detail.html" class="order">
+                        <div class="order-images">
+                            <img src="assets/img/products/1.jpg" alt="">
+                            <img src="assets/img/products/2.jpg" alt="">
+                            <img src="assets/img/products/3.jpg" alt="">
+                        </div>
+                        <div class="order-info">
+                            <div class="order-id">
+                                Sipariş No <span>391 994 689</span>
+                            </div>
+                            <div class="order-date">
+                                2 Mart Salı, 23:36
+                            </div>
+                        </div>
+                        <div class="order-status order-cancelled">
+                            <i class='bx bx-error-circle '></i>
+                            <span style="color:var(--dark);">Sipariş iptal edildi</span>
+                        </div>
+                        <div class="order-price-info">
+                            <div class="order-price">
+                                504,61 ₺
+                            </div>
+                            <div class="order-payment-method">
+                                Kredi Kartı
+                            </div>
+                        </div>
+                    </a>
+                    <a href="order-detail.html" class="order">
+                        <div class="order-images">
+                            <img src="assets/img/products/1.jpg" alt="">
+                            <img src="assets/img/products/2.jpg" alt="">
+                            <img src="assets/img/products/3.jpg" alt="">
+                        </div>
+                        <div class="order-info">
+                            <div class="order-id">
+                                Sipariş No <span>391 994 689</span>
+                            </div>
+                            <div class="order-date">
+                                2 Mart Salı, 23:36
+                            </div>
+                        </div>
+                        <div class="order-status order-preparing">
+                            <i class='bx bx-bolt-circle'></i>
+                            <span style="color:var(--dark);">Sipariş hazırlanıyor</span>
+                        </div>
+                        <div class="order-price-info">
+                            <div class="order-price">
+                                504,61 ₺
+                            </div>
+                            <div class="order-payment-method">
+                                Kredi Kartı
+                            </div>
+                        </div>
+                    </a>
+                    <a href="order-detail.html" class="order">
+                        <div class="order-images">
+                            <img src="assets/img/products/1.jpg" alt="">
+                            <img src="assets/img/products/2.jpg" alt="">
+                            <img src="assets/img/products/3.jpg" alt="">
+                        </div>
+                        <div class="order-info">
+                            <div class="order-id">
+                                Sipariş No <span>391 994 689</span>
+                            </div>
+                            <div class="order-date">
+                                2 Mart Salı, 23:36
+                            </div>
+                        </div>
+                        <div class="order-status order-returned">
+                            <i class='bx bx-left-top-arrow-circle'></i>
+                            <span style="color:var(--dark);">Sipariş iade edildi</span>
+                        </div>
+                        <div class="order-price-info">
+                            <div class="order-price">
+                                504,61 ₺
+                            </div>
+                            <div class="order-payment-method">
+                                Kredi Kartı
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="assets/js/jquery.js"></script>
+    <script>
+        $('select').each(function () {
+
+            // Cache the number of options
+            var $this = $(this),
+                numberOfOptions = $(this).children('option').length;
+
+            // Hides the select element
+            $this.addClass('s-hidden');
+
+            // Wrap the select element in a div
+            $this.wrap('<div class="select"></div>');
+
+            // Insert a styled div to sit over the top of the hidden select element
+            $this.after('<div class="styledSelect"></div>');
+
+            // Cache the styled div
+            var $styledSelect = $this.next('div.styledSelect');
+
+            // Show the first select option in the styled div
+            $styledSelect.text($this.children('option').eq(0).text());
+
+            // Insert an unordered list after the styled div and also cache the list
+            var $list = $('<ul />', {
+                'class': 'options'
+            }).insertAfter($styledSelect);
+
+            // Insert a list item into the unordered list for each select option
+            for (var i = 0; i < numberOfOptions; i++) {
+                $('<li />', {
+                    text: $this.children('option').eq(i).text(),
+                    rel: $this.children('option').eq(i).val()
+                }).appendTo($list);
+            }
+
+            // Cache the list items
+            var $listItems = $list.children('li');
+
+            // Show the unordered list when the styled div is clicked (also hides it if the div is clicked again)
+            $styledSelect.click(function (e) {
+                e.stopPropagation();
+                $('div.styledSelect.active').each(function () {
+                    $(this).removeClass('active').next('ul.options').hide();
+                });
+                $(this).toggleClass('active').next('ul.options').toggle();
+            });
+
+            // Hides the unordered list when a list item is clicked and updates the styled div to show the selected list item
+            // Updates the select element to have the value of the equivalent option
+            $listItems.click(function (e) {
+                e.stopPropagation();
+                $styledSelect.text($(this).text()).removeClass('active');
+                $this.val($(this).attr('rel'));
+                $list.hide();
+                /* alert($this.val()); Uncomment this for demonstration! */
+            });
+
+            // Hides the unordered list when clicking outside of it
+            $(document).click(function () {
+                $styledSelect.removeClass('active');
+                $list.hide();
+            });
+
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+<li class="has-submenu">
+    <a href="#" data-submenu="electronics">Electronics<i class="bx bx-chevron-right"></i></a>
+    <div class="submenu" id="electronics">
+        <div class="submenu-header">
+            <a href="#" data-submenu-close="electronics"><i class="bx bx-chevron-left"></i>Geri dön</a>
+        </div>
+        <label style="background-image: url(assets/img/offers/nav-offer-2.png);">Elektronik</label>
+        <ul>
+            <li>
+                <a href="#">Camera Photo</a>
+            </li>
+        </ul>
+    </div>
+</li>
+
+<script>
+    const BASE_URL = "categories.json";
+    const container = document.querySelector(".zeynep ul");
+    const loader = document.querySelector(".loader");
+
+    function getData() {
+        fetch(`${BASE_URL}`)
+            .then((response) => response.json())
+            .then((results) => drawResults(results));
+    }
+
+    function drawResults(results) {
+        const html = results.map(
+                (result) =>
+                `
+                ${(() => {
+                            if (result.multiple===true) {
+                                return `
+                                <li class="has-submenu">
+                                    <a href="#" data-submenu="stores">Stores</a>
+                        
+                                    <div id="stores" class="submenu">
+                                    <div class="submenu-header">
+                                        <a href="#" data-submenu-close="stores">Main Menu</a>
+                                    </div>
+                        
+                                    <label>Stores</label>
+                        
+                                    <ul>
+                                        <li>
+                                        <a href="#">Istanbul</a>
+                                        </li>
+                        
+                                        <li>
+                                        <a href="#">Mardin</a>
+                                        </li>
+                        
+                                        <li>
+                                        <a href="#">Amed</a>
+                                        </li>
+                                    </ul>
+                                    </div>
+                                </li>
+                                `
+                                ;
+                            } else {
+                                return ` <
+                li >
+                <
+                a href = "#" > Contact < /a> < /
+                li >
+                `;
+                            }
+                            })()}
+                `
+            )
+            .join("");
+        container.innerHTML += html;
+    }
+    document.addEventListener("DOMContentLoaded", getData);
+    document.addEventListener()
+</script>

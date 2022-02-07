@@ -1,0 +1,271 @@
+[{
+        "productId": 1,
+        "id": 1,
+        "productImg": "assets/img/products/1.jpg",
+        "productName": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "productDiscount": "%54",
+        "productOldPrice": "649,99TL",
+        "productNewPrice": "299,99TL"
+    },
+    {
+        "productId": 2,
+        "id": 2,
+        "productImg": "assets/img/products/1.jpg",
+        "productName": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "productDiscount": "%54",
+        "productOldPrice": "64999,99TL",
+        "productNewPrice": "999299,99TL"
+    },
+    {
+        "productId": 3,
+        "id": 3,
+        "productImg": "assets/img/products/1.jpg",
+        "productName": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "productDiscount": "%54",
+        "productOldPrice": "649,99TL",
+        "productNewPrice": "299,99TL"
+    },
+    {
+        "productId": 4,
+        "id": 4,
+        "productImg": "assets/img/products/1.jpg",
+        "productName": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "productDiscount": "%54",
+        "productOldPrice": "649,99TL",
+        "productNewPrice": "299,99TL"
+    },
+    {
+        "productId": 5,
+        "id": 5,
+        "productImg": "assets/img/products/1.jpg",
+        "productName": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "productDiscount": "%54",
+        "productOldPrice": "649,99TL",
+        "productNewPrice": "299,99TL"
+    },
+    {
+        "productId": 6,
+        "id": 6,
+        "productImg": "assets/img/products/1.jpg",
+        "productName": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "productDiscount": "%54",
+        "productOldPrice": "649,99TL",
+        "productNewPrice": "299,99TL"
+    },
+    {
+        "productId": 7,
+        "id": 7,
+        "productImg": "assets/img/products/1.jpg",
+        "productName": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "productDiscount": "%54",
+        "productOldPrice": "649,99TL",
+        "productNewPrice": "299,99TL"
+    },
+    {
+        "productId": 8,
+        "id": 8,
+        "productImg": "assets/img/products/1.jpg",
+        "productName": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "productDiscount": "%54",
+        "productOldPrice": "649,99TL",
+        "productNewPrice": "299,99TL"
+    },
+    {
+        "productId": 9,
+        "id": 9,
+        "productImg": "assets/img/products/1.jpg",
+        "productName": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "productDiscount": "%54",
+        "productOldPrice": "649,99TL",
+        "productNewPrice": "299,99TL"
+    },
+    {
+        "productId": 10,
+        "id": 10,
+        "productImg": "assets/img/products/1.jpg",
+        "productName": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "productDiscount": "%54",
+        "productOldPrice": "649,99TL",
+        "productNewPrice": "299,99TL"
+    },
+    {
+        "productId": 11,
+        "id": 11,
+        "productImg": "assets/img/products/1.jpg",
+        "productName": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "productDiscount": "%54",
+        "productOldPrice": "649,99TL",
+        "productNewPrice": "299,99TL"
+    },
+    {
+        "productId": 12,
+        "id": 12,
+        "productImg": "assets/img/products/1.jpg",
+        "productName": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "productDiscount": "%54",
+        "productOldPrice": "649,99TL",
+        "productNewPrice": "299,99TL"
+    },
+    {
+        "productId": 13,
+        "id": 13,
+        "productImg": "assets/img/products/1.jpg",
+        "productName": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "productDiscount": "%54",
+        "productOldPrice": "649,99TL",
+        "productNewPrice": "299,99TL"
+    },
+    {
+        "productId": 14,
+        "id": 14,
+        "productImg": "assets/img/products/1.jpg",
+        "productName": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "productDiscount": "%54",
+        "productOldPrice": "649,99TL",
+        "productNewPrice": "299,99TL"
+    },
+    {
+        "productId": 15,
+        "id": 15,
+        "productImg": "assets/img/products/1.jpg",
+        "productName": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "productDiscount": "%54",
+        "productOldPrice": "649,99TL",
+        "productNewPrice": "299,99TL"
+    },
+    {
+        "productId": 16,
+        "id": 16,
+        "productImg": "assets/img/products/1.jpg",
+        "productName": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "productDiscount": "%54",
+        "productOldPrice": "649,99TL",
+        "productNewPrice": "299,99TL"
+    },
+    {
+        "productId": 17,
+        "id": 17,
+        "productImg": "assets/img/products/1.jpg",
+        "productName": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "productDiscount": "%54",
+        "productOldPrice": "649,99TL",
+        "productNewPrice": "299,99TL"
+    },
+    {
+        "productId": 18,
+        "id": 18,
+        "productImg": "assets/img/products/1.jpg",
+        "productName": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "productDiscount": "%54",
+        "productOldPrice": "649,99TL",
+        "productNewPrice": "299,99TL"
+    },
+    {
+        "productId": 19,
+        "id": 19,
+        "productImg": "assets/img/products/1.jpg",
+        "productName": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "productDiscount": "%54",
+        "productOldPrice": "649,99TL",
+        "productNewPrice": "299,99TL"
+    },
+    {
+        "productId": 20,
+        "id": 20,
+        "productImg": "assets/img/products/1.jpg",
+        "productName": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "productDiscount": "%54",
+        "productOldPrice": "649,99TL",
+        "productNewPrice": "299,99TL"
+    },
+    {
+        "productId": 21,
+        "id": 21,
+        "productImg": "assets/img/products/1.jpg",
+        "productName": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "productDiscount": "%54",
+        "productOldPrice": "649,99TL",
+        "productNewPrice": "299,99TL"
+    },
+    {
+        "productId": 22,
+        "id": 22,
+        "productImg": "assets/img/products/1.jpg",
+        "productName": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "productDiscount": "%54",
+        "productOldPrice": "649,99TL",
+        "productNewPrice": "299,99TL"
+    },
+    {
+        "productId": 23,
+        "id": 23,
+        "productImg": "assets/img/products/1.jpg",
+        "productName": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "productDiscount": "%54",
+        "productOldPrice": "649,99TL",
+        "productNewPrice": "299,99TL"
+    },
+    {
+        "productId": 24,
+        "id": 24,
+        "productImg": "assets/img/products/1.jpg",
+        "productName": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "productDiscount": "%54",
+        "productOldPrice": "649,99TL",
+        "productNewPrice": "299,99TL"
+    },
+    {
+        "productId": 25,
+        "id": 25,
+        "productImg": "assets/img/products/1.jpg",
+        "productName": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "productDiscount": "%54",
+        "productOldPrice": "649,99TL",
+        "productNewPrice": "299,99TL"
+    },
+    {
+        "productId": 26,
+        "id": 26,
+        "productImg": "assets/img/products/1.jpg",
+        "productName": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "productDiscount": "%54",
+        "productOldPrice": "649,99TL",
+        "productNewPrice": "299,99TL"
+    },
+    {
+        "productId": 27,
+        "id": 27,
+        "productImg": "assets/img/products/1.jpg",
+        "productName": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "productDiscount": "%54",
+        "productOldPrice": "649,99TL",
+        "productNewPrice": "299,99TL"
+    },
+    {
+        "productId": 28,
+        "id": 28,
+        "productImg": "assets/img/products/1.jpg",
+        "productName": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "productDiscount": "%54",
+        "productOldPrice": "649,99TL",
+        "productNewPrice": "299,99TL"
+    },
+    {
+        "productId": 29,
+        "id": 29,
+        "productImg": "assets/img/products/1.jpg",
+        "productName": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "productDiscount": "%54",
+        "productOldPrice": "649,99TL",
+        "productNewPrice": "299,99TL"
+    },
+    {
+        "productId": 30,
+        "id": 30,
+        "productImg": "assets/img/products/1.jpg",
+        "productName": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "productDiscount": "%54",
+        "productOldPrice": "649,99TL",
+        "productNewPrice": "299,99TL"
+    }
+]
